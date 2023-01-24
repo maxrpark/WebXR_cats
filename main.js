@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const action = mixer.clipAction(gltf.animations[0]);
                     action.play();
                     gltf.scene.position.setFromMatrixPosition(reticle.matrix);
-                    gltf.scene.scale.set(0.3, 0.3, 0.3);
+                    gltf.scene.scale.set(0.5, 0.5, 0.5);
                     mixers.push(mixer);
                     scene.add(gltf.scene);
                 }
