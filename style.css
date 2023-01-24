@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#ar-button {
+    position: fixed;
+    z-index: 1001;
+    padding: 1vh;
+    bottom: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+textarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30vh;
+    padding: 10px;
+    width: 50vw;
+    overflow: auto;
+    background: white;
+    z-index: 1001;
+}
